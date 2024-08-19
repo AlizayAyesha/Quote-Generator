@@ -1,0 +1,67 @@
+/* src/App.css */
+body {
+  background-image: url(./img/bg.png);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#quote-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  max-width: 600px;         /* Set a max width for better control */
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Single, clean shadow */
+  padding: 20px; /* Padding for better spacing */
+  margin-top: 20%;
+  margin-left: 29%;
+}
+
+.quote-text {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.quote-author {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+.new-quote-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #793907;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 10px; /* Add margin to separate from the tweet button */
+}
+
+.new-quote-button:hover {
+  background-color: #84654e;
+}
+.btn {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #793907;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Ensure the tweet button is aligned correctly */
+#tweet-quote {
+  display: inline-block; /* Ensures button is inline and respects margin */
+}
+
+.btn:hover {
+  background-color: #84654e;
+}
