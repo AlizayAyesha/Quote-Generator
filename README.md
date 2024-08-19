@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Packages Installed 
+
+npm install //for node modules
+npm install axios //for axios
+npm install bootstrap //for bootstrap
+
+then for see this code running u could copy the code n paste it in your vs code then simple cmd in terminal npm start u can easily see the results.
+by clickin on new quote button u can have new quote each time with a diffrent color. 
+
+## Results 
+
+![image](https://github.com/user-attachments/assets/5bb6827a-3f7c-48d1-99c3-1593ccafebd6)
